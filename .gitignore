@@ -1,4 +1,8 @@
 *.py[co]
+.project
+*.pyc
+*.pyo
+*~
 
 # Packages
 *.egg
