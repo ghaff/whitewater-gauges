@@ -15,7 +15,7 @@ app.config['PROPAGATE_EXCEPTIONS'] = True
 @app.route("/ws/parks")
 def parks():
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_NOSQL_DB_URL'])
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.parks
 
     #query the DB for all the parkpoints
@@ -29,7 +29,7 @@ def parks():
 @app.route("/ws/parks/park/<parkId>")
 def onePark(parkId):
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_NOSQL_DB_URL'])
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.parks
 
     #query based on the objectid
@@ -43,7 +43,7 @@ def onePark(parkId):
 @app.route("/ws/parks/near")
 def near():
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_NOSQL_DB_URL'])
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.parks
 
     #get the request parameters
@@ -61,7 +61,7 @@ def near():
 @app.route("/ws/parks/name/near/<name>")
 def nameNear(name):
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_NOSQL_DB_URL'])
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.parks
 
     #get the request parameters

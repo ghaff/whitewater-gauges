@@ -11,7 +11,7 @@ Create an account at http://openshift.redhat.com/
 Create a python-2.6 application and add a MongoDB cartridge to the app
 
     rhc app create -a pythonws -t python-2.6
-    rhc app cartridge add -a pythonws -c mongodb-2.0
+    rhc app cartridge add -a pythonws -c mongodb-2.2
 
 Add this upstream flask repo
 
