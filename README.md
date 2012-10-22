@@ -27,14 +27,20 @@ Then push the repo upstream
 To add the data to the MongoDB instance please follow the instructions on this blog:
 [Mongo Spatial on OpenShift](https://openshift.redhat.com/community/blogs/spatial-mongodb-in-openshift-be-the-next-foursquare-part-1)
 
-Be sure to:
+Now, ssh into the application.
 
-- add the data to a collection called parkpoints
-- create the spatial index on the documents
+Add the data to a collection called parkpoints:
+
+    mongoimport -d parks -c parkpoints --type json --file $OPENSHIFT_REPO_DIR/parkcoord.json  -h $OPENSHIFT_MONGODB_DB_HOST  -u admin -p $OPENSHIFT_MONGODB_DB_PASSWORD
+
+    
+Create the spatial index on the documents:
+
+    mongo
+    use parks
+    db.parkpoints.ensureIndex( { pos : "2d" } );
 
 Once the data is imported you can now checkout your application at:
 
-    http://pythonws-$yournamespace.rhcloud.com
+    http://pythonws-$yournamespace.rhcloud.com/ws/parks
     
-    
-
