@@ -15,8 +15,8 @@ app.config['PROPAGATE_EXCEPTIONS'] = True
 @app.route("/ws/parks")
 def parks():
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL']+ os.environ['OPENSHIFT_APP_NAME'])
-    db = conn.parks
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
+    db = conn[os.environ['OPENSHIFT_APP_NAME']]
 
     #query the DB for all the parkpoints
     result = db.parkpoints.find()
@@ -29,8 +29,8 @@ def parks():
 @app.route("/ws/parks/park/<parkId>")
 def onePark(parkId):
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL']+ os.environ['OPENSHIFT_APP_NAME'])
-    db = conn.parks
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
+    db = conn[os.environ['OPENSHIFT_APP_NAME']]
 
     #query based on the objectid
     result = db.parkpoints.find({'_id': objectid.ObjectId(parkId)})
@@ -43,8 +43,8 @@ def onePark(parkId):
 @app.route("/ws/parks/near")
 def near():
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL']+ os.environ['OPENSHIFT_APP_NAME'])
-    db = conn.parks
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
+    db = conn[os.environ['OPENSHIFT_APP_NAME']]
 
     #get the request parameters
     lat = float(request.args.get('lat'))
@@ -61,8 +61,8 @@ def near():
 @app.route("/ws/parks/name/near/<name>")
 def nameNear(name):
     #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL']+ os.environ['OPENSHIFT_APP_NAME'])
-    db = conn.parks
+    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
+    db = conn[os.environ['OPENSHIFT_APP_NAME']]
 
     #get the request parameters
     lat = float(request.args.get('lat'))
