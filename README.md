@@ -43,4 +43,8 @@ Create the spatial index on the documents:
 Once the data is imported you can now checkout your application at:
 
     http://pythonws-$yournamespace.rhcloud.com/ws/parks
-    
+ 
+License
+-------
+
+This code is dedicated to the public domain to the maximum extent permitted by applicable law, pursuant to CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
