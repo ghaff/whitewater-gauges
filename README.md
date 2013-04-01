@@ -2,6 +2,7 @@ openshift-mongo-flask-example
 =============================
 
 This is the code to go along with the [OpenShift blog piece](https://openshift.redhat.com/community/blogs/rest-web-services-with-python-mongodb-and-spatial-data-in-the-cloud) on how to use Flask (python) with MongoDB to create a REST like web service with spatial data
+**Please note that this only works with Python-2.6 cartridge**
 
 Running on OpenShift
 ----------------------------
@@ -10,19 +11,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a python-2.6 application and add a MongoDB cartridge to the app
 
-    rhc app create -a pythonws -t python-2.6
-    rhc cartridge add -a pythonws -c mongodb-2.2
-
-Add this upstream flask repo
-
-
-    cd pythonws
-    git remote add upstream -m master git://github.com/openshift/openshift-mongo-flask-example.git
-    git pull -s recursive -X theirs upstream master
-    
-Then push the repo upstream
-
-    git push
+    rhc app create pythonws python-2.6 mongodb-2.2 --from-source git://github.com/openshift/openshift-mongo-flask-example.git
     
 To add the data to the MongoDB instance please follow the instructions on this blog:
 [Mongo Spatial on OpenShift](https://openshift.redhat.com/community/blogs/spatial-mongodb-in-openshift-be-the-next-foursquare-part-1)
