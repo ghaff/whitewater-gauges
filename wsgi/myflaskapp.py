@@ -81,6 +81,11 @@ def nameNear(name):
 @app.route("/test")
 def test():
     return "<strong>It actually worked</strong>"
+    
+#need this in a scalable app so that HAProxy thinks the app is up
+@app.route("/")
+def blah():
+    return "hello world"
 
 if __name__ == "__main__":
     app.run()
