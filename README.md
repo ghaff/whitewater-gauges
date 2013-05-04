@@ -15,7 +15,7 @@ Create a python-2.6 application and add a MongoDB cartridge to the app
     
 or you can do this
 
-    cd tomcat
+    cd pythonws
     git remote add upstream -m master git://github.com/openshift/openshift-mongo-flask-example.git
     git pull -s recursive -X theirs upstream master
     git push
