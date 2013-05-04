@@ -13,6 +13,13 @@ Create a python-2.6 application and add a MongoDB cartridge to the app
 
     rhc app create pythonws python-2.6 mongodb-2.2 --from-code git://github.com/openshift/openshift-mongo-flask-example.git
     
+or you can do this
+
+    cd tomcat
+    git remote add upstream -m master git://github.com/openshift/openshift-mongo-flask-example.git
+    git pull -s recursive -X theirs upstream master
+    git push
+    
 To add the data to the MongoDB instance please follow the instructions on this blog:
 [Mongo Spatial on OpenShift](https://openshift.redhat.com/community/blogs/spatial-mongodb-in-openshift-be-the-next-foursquare-part-1)
 
