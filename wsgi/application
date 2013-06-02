@@ -11,7 +11,7 @@ else:
 
 virtenv = PY_DIR + '/virtenv/'
 
-PY_CACHE = virtenv + 'lib/' + PY_VERSION + '/site-packages'
+PY_CACHE = os.path.join(virtenv, 'lib', '2.6', 'site-packages')
 
 os.environ['PYTHON_EGG_CACHE'] = os.path.join(PY_CACHE)
 virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
