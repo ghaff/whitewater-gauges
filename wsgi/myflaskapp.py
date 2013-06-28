@@ -48,7 +48,7 @@ def near():
 
 #find gauges within a lot/long bounding box passed in as query parameters (within?lat1=45.5&&lon1=-82&lat2=42&lon2=-84)
 @app.route("/ws/gauges/within")
-def near():
+def within():
     #setup the connection
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.gauges
@@ -60,7 +60,7 @@ def near():
     lon2 = float(request.args.get('lon2'))
 
     #use the request parameters in the query
-    result = db.gaugepoints.find(("pos": {"$within": {"$box" : [[lon1,lat1],[lon2,lat2]]}}})
+    result = db.gaugepoints.find({"pos": {"$within": {"$box" : [[lon1,lat1],[lon2,lat2]]}}})
 
     #turn the results into valid JSON
     return str(json.dumps({'results' : list(result)},default=json_util.default))
