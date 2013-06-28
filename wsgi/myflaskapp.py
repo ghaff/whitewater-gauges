@@ -14,9 +14,9 @@ app.config['PROPAGATE_EXCEPTIONS'] = True
 #a base urls that returns all the parks in the collection (of course in the future we would implement paging)
 @app.route("/ws/parks")
 def parks():
-    #setup the connection
+    #setup the connection to the parks database
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn[os.environ['OPENSHIFT_APP_NAME']]
+    db = conn.parks
 
     #query the DB for all the parkpoints
     result = db.parkpoints.find()
@@ -30,7 +30,7 @@ def parks():
 def onePark(parkId):
     #setup the connection
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn[os.environ['OPENSHIFT_APP_NAME']]
+    db = conn.parks
 
     #query based on the objectid
     result = db.parkpoints.find({'_id': objectid.ObjectId(parkId)})
@@ -44,7 +44,7 @@ def onePark(parkId):
 def near():
     #setup the connection
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn[os.environ['OPENSHIFT_APP_NAME']]
+    db = conn.parks
 
     #get the request parameters
     lat = float(request.args.get('lat'))
@@ -62,7 +62,7 @@ def near():
 def nameNear(name):
     #setup the connection
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn[os.environ['OPENSHIFT_APP_NAME']]
+    db = conn.parks
 
     #get the request parameters
     lat = float(request.args.get('lat'))

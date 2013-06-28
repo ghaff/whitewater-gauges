@@ -1,0 +1,361 @@
+{ "_id" : "01074520", "sitename" : "EAST BRANCH PEMIGEWASSET RIVER AT LINCOLN, NH" , "pos" : [44.0475669, -71.6598029] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104480", "sitename" : "STONY BROOK RESERVOIR AT DAM NEAR WALTHAM, MA" , "pos" : [42.3556519, -71.2650565] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01109060", "sitename" : "THREEMILE RIVER AT NORTH DIGHTON, MA" , "pos" : [41.8662122, -71.12282369] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01047200", "sitename" : "Sandy River near Madrid, Maine" , "pos" : [44.85777778, -70.48527778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01089500", "sitename" : "SUNCOOK RIVER AT NORTH CHICHESTER, NH" , "pos" : [43.25674759, -71.36951248] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01048000", "sitename" : "Sandy River near Mercer, Maine" , "pos" : [44.70805556, -69.9375] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100693", "sitename" : "MERRIMACK R 0.3 MILES U.S.RT 125 AT HAVERHILL,MA" , "pos" : [42.77277778, -71.0830556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01184490", "sitename" : "BROAD BROOK AT BROAD BROOK, CT." , "pos" : [41.9138972, -72.5497] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01029200", "sitename" : "Seboeis River near Shin Pond, Maine" , "pos" : [46.14305556, -68.6336111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01049320", "sitename" : "Kennebec River at Calumet Bridge at Augusta, Maine" , "pos" : [44.3186111, -69.7716667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115630", "sitename" : "NOOSENECK RIVER AT NOOSENECK, RI" , "pos" : [41.6267667, -71.6325646] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "010965852", "sitename" : "BEAVER BROOK AT NORTH PELHAM, NH" , "pos" : [42.78286636, -71.35367448] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "010642505", "sitename" : "SACO RIVER AT RIVER STREET, AT BARTLETT, NH" , "pos" : [44.0836111, -71.285] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01017960", "sitename" : "Meduxnekeag R above S Br Medux. R nr Houlton, ME" , "pos" : [46.105, -67.88138889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01095503", "sitename" : "NASHUA RIVER, WATER STREET BRIDGE, AT CLINTON, MA" , "pos" : [0.0, 0.0] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104415", "sitename" : "CAMBRIDGE RES., UNNAMED TRIB 2, NR LEXINGTON, MA" , "pos" : [42.43592855, -71.2600567] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104000", "sitename" : "MOTHER BROOK AT DEDHAM, MA" , "pos" : [42.2550985, -71.1642196] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01094000", "sitename" : "SOUHEGAN RIVER AT MERRIMACK, NH" , "pos" : [42.8575865, -71.5061785] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01073500", "sitename" : "LAMPREY RIVER NEAR NEWMARKET, NH" , "pos" : [43.10258558, -70.952559] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01054000", "sitename" : "Androscoggin River near Gorham, NH" , "pos" : [44.4358333, -71.19027778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01163200", "sitename" : "OTTER RIVER AT OTTER RIVER, MA" , "pos" : [42.58842124, -72.04091198] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01029500", "sitename" : "East Branch Penobscot River at Grindstone, Maine" , "pos" : [45.73027778, -68.5894444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "011058837", "sitename" : "QUASHNET RIVER AT WAQUOIT VILLAGE, MA" , "pos" : [41.59233175, -70.50780579] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100627", "sitename" : "SHAWSHEEN RIVER AT BALMORAL STREET AT ANDOVER, MA" , "pos" : [42.6714806, -71.1492239] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01014000", "sitename" : "St. John River below Fish R, nr Fort Kent, Maine" , "pos" : [47.2833333, -68.58527778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01139000", "sitename" : "WELLS RIVER AT WELLS RIVER, VT" , "pos" : [44.1503413, -72.0650915] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01152500", "sitename" : "SUGAR RIVER AT WEST CLAREMONT, NH" , "pos" : [43.38757327, -72.36203409] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01184000", "sitename" : "CONNECTICUT RIVER AT THOMPSONVILLE, CT." , "pos" : [41.9873186, -72.6053669] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01027200", "sitename" : "North Branch Penobscot River nr Pittston Farm, ME" , "pos" : [45.93527778, -69.9936111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "011055566", "sitename" : "NEPONSET RIVER AT MILTON VILLAGE, MA" , "pos" : [42.2709321, -71.06838369] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01015800", "sitename" : "Aroostook River near Masardis, Maine" , "pos" : [46.52305556, -68.3716667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01031450", "sitename" : "Kingsbury Stream at Abbot Village, Maine" , "pos" : [45.1844444, -69.4522222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01064485", "sitename" : "SWIFT RIVER 0.5 MI BL HOBBS BR, NR CONWAY, NH" , "pos" : [43.99305556, -71.2075] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01144500", "sitename" : "CONNECTICUT RIVER AT WEST LEBANON, NH" , "pos" : [43.64618187, -72.3123134] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01059000", "sitename" : "Androscoggin River near Auburn, Maine" , "pos" : [44.0722222, -70.2080556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01017060", "sitename" : "Hardwood Brook below Glidden Brk nr Caribou, Maine" , "pos" : [46.7836111, -67.9891667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104705", "sitename" : "CHARLES RIVER AT FIRST ST AT CAMBRIDGE, MA" , "pos" : [42.3622222, -71.0786111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01090800", "sitename" : "PISCATAQUOG RIVER BL EVERETT DAM, NR E WEARE, NH" , "pos" : [43.0914705, -71.6595182] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01064801", "sitename" : "BEARCAMP RIVER AT SOUTH TAMWORTH, NH" , "pos" : [43.83007396, -71.2878488] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01083000", "sitename" : "NUBANUSIT BK BLW MACDOWELL DAM NR PETERBOROUGH NH" , "pos" : [42.8928607, -71.9867469] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105876", "sitename" : "EEL RIVER AT RT 3A NEAR PLYMOUTH, MA" , "pos" : [41.94177039, -70.6225338] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01054300", "sitename" : "Ellis River at South Andover, Maine" , "pos" : [44.5933333, -70.7330556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01170000", "sitename" : "DEERFIELD RIVER NEAR WEST DEERFIELD, MA" , "pos" : [42.53591957, -72.65342328] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01169000", "sitename" : "NORTH RIVER AT SHATTUCKVILLE, MA" , "pos" : [42.63841775, -72.7250922] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117350", "sitename" : "CHIPUXET RIVER AT WEST KINGSTON, RI" , "pos" : [41.4823233, -71.5511719] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "012035055", "sitename" : "POOTATUCK RIVER AT BERKSHIRE" , "pos" : [41.4065472, -73.2731833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01113895", "sitename" : "BLACKSTONE R AT ROOSEVELT ST AT PAWTUCKET RI" , "pos" : [41.88871088, -71.38144468] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01094400", "sitename" : "NORTH NASHUA RIVER AT FITCHBURG, MA" , "pos" : [42.57620079, -71.7881285] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117500", "sitename" : "PAWCATUCK RIVER AT WOOD RIVER JUNCTION, RI" , "pos" : [41.44510024, -71.68089828] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01022840", "sitename" : "Otter Creek near Bar Harbor, Maine" , "pos" : [44.33277778, -68.2066667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01091000", "sitename" : "SOUTH BRANCH PISCATAQUOG RIVER NEAR GOFFSTOWN, NH" , "pos" : [43.01480519, -71.64146129] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01125100", "sitename" : "FRENCH R AT N GROSVENORDALE, CT." , "pos" : [41.97846389, -71.90051389] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01069500", "sitename" : "Mousam River near West Kennebunk, Maine" , "pos" : [43.4183333, -70.6583333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115120", "sitename" : "UNNAMED TRIB TO SCITUATE RES NR NORTH SCITUATE, RI" , "pos" : [41.8314882, -71.6089532] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01110000", "sitename" : "QUINSIGAMOND RIVER AT NORTH GRAFTON, MA" , "pos" : [42.230372, -71.7109023] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01010000", "sitename" : "St. John River at Ninemile Bridge, Maine" , "pos" : [46.70055556, -69.7155556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01200500", "sitename" : "HOUSATONIC RIVER AT GAYLORDSVILLE, CT." , "pos" : [41.6531496, -73.4898462] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104455", "sitename" : "STONY BROOK, UNNAMED TRIBUTARY 1, NEAR WALTHAM, MA" , "pos" : [42.37259606, -71.27033448] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104453", "sitename" : "STONY BROOK UNNAMED TRIB 2 NR WESTON STATION" , "pos" : [42.37138889, -71.27527778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01084000", "sitename" : "NORTH BRANCH RIVER NEAR ANTRIM, NH" , "pos" : [43.0817464, -71.9784147] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01154000", "sitename" : "SAXTONS RIVER AT SAXTONS RIVER, VT" , "pos" : [43.13757777, -72.4881444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01047150", "sitename" : "Kennebec River near Madison, Maine" , "pos" : [44.77888889, -69.8869444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104683", "sitename" : "MUDDY RIVER AT BROOKLINE, MA" , "pos" : [42.3373197, -71.11116328] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01095434", "sitename" : "GATES BROOK NEAR WEST BOYLSTON, MA" , "pos" : [42.36453675, -71.775349] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01042500", "sitename" : "Kennebec River at The Forks, Maine" , "pos" : [45.3397222, -69.9619444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01087850", "sitename" : "CONTOOCOOK RIVER AT RIVER HILL, NEAR PENACOOK, NH" , "pos" : [43.24980178, -71.61951889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01010070", "sitename" : "Big Black River near Depot Mtn, Maine" , "pos" : [46.89388889, -69.7516667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117430", "sitename" : "PAWCATUCK RIVER AT KENYON, RI" , "pos" : [41.44621186, -71.6211738] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01188090", "sitename" : "FARMINGTON RIVER AT UNIONVILLE, CT." , "pos" : [41.7555472, -72.8870417] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01091500", "sitename" : "PISCATAQUOG RIVER NEAR GOFFSTOWN, NH" , "pos" : [43.01675, -71.5506252] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01118000", "sitename" : "WOOD RIVER AT HOPE VALLEY, RI" , "pos" : [41.49815516, -71.7164561] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104420", "sitename" : "CAMBRIDGE RES., UNNAMED TRIB 3, NR LEXINGTON, MA" , "pos" : [42.4198177, -71.2575565] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01053500", "sitename" : "Androscoggin River at Errol, NH" , "pos" : [44.7825, -71.1286111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01038000", "sitename" : "Sheepscot River at North Whitefield, Maine" , "pos" : [44.22277778, -69.59388889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209500", "sitename" : "SAUGATUCK R NR WESTPORT, CT." , "pos" : [41.17073056, -73.3648167] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105500", "sitename" : "EAST BRANCH NEPONSET RIVER AT CANTON, MA" , "pos" : [42.15454356, -71.1458842] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01123360", "sitename" : "QUINEBAUG R BL E BRIMFIELD DAM AT FISKDALE, MA" , "pos" : [42.108375, -72.1261306] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01064118", "sitename" : "Presumpscot River at Westbrook, Maine" , "pos" : [43.68694444, -70.3472222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01111212", "sitename" : "BLACKSTONE RIVER, RT 122 BRIDGE NEAR UXBRIDGE, MA" , "pos" : [42.05481959, -71.6164542] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01118300", "sitename" : "PENDLETON HILL BROOK NEAR CLARKS FALLS, CT." , "pos" : [41.4748222, -71.8342361] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01022500", "sitename" : "Narraguagus River at Cherryfield, Maine" , "pos" : [44.60805556, -67.93527778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01086000", "sitename" : "WARNER RIVER AT DAVISVILLE, NH" , "pos" : [43.25091159, -71.7322996] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01046000", "sitename" : "Austin Stream at Bingham, Maine" , "pos" : [45.0644444, -69.8805556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100561", "sitename" : "SPICKET RIVER NEAR METHUEN, MA" , "pos" : [42.7431456, -71.208393] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01142500", "sitename" : "AYERS BROOK AT RANDOLPH, VT" , "pos" : [43.93450969, -72.6578821] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01179500", "sitename" : "WESTFIELD RIVER AT KNIGHTVILLE, MA" , "pos" : [42.28786655, -72.8642636] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100568", "sitename" : "SHAWSHEEN RIVER AT HANSCOM FIELD NEAR BEDFORD, MA" , "pos" : [42.46703909, -71.2722795] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01185500", "sitename" : "WEST BRANCH FARMINGTON RIVER NEAR NEW BOSTON, MA" , "pos" : [42.0788611, -73.0728833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01203805", "sitename" : "WEEKEEPEEMEE RIVER AT HOTCHKISSVILLE, CT" , "pos" : [41.5577083, -73.21535278] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01103500", "sitename" : "CHARLES RIVER AT DOVER, MA" , "pos" : [42.256209, -71.2600558] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01018035", "sitename" : "Meduxnekeag River at Lowery Rd. nr Houlton, Maine" , "pos" : [46.1811111, -67.80388889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01109403", "sitename" : "TEN MILE R., PAWTUCKET AVE. AT E. PROVIDENCE, RI" , "pos" : [41.83093376, -71.3511649] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01073319", "sitename" : "LAMPREY RIVER AT LANGFORD ROAD, AT RAYMOND, NH" , "pos" : [43.04230695, -71.20061769] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01053600", "sitename" : "Androscoggin River below Bog Brook at Cambridge NH" , "pos" : [44.6661111, -71.18138889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01189213", "sitename" : "FARMINGTON RIVER AT SIMSBURY, CT" , "pos" : [41.86970556, -72.7972444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01134500", "sitename" : "MOOSE RIVER AT VICTORY, VT" , "pos" : [44.5117231, -71.8373143] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01193500", "sitename" : "SALMON RIVER NEAR EAST HAMPTON, CT." , "pos" : [41.55232124, -72.44925287] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01049000", "sitename" : "Sebasticook River near Pittsfield, Maine" , "pos" : [44.71666667, -69.41388889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105600", "sitename" : "OLD SWAMP RIVER NEAR SOUTH WEYMOUTH, MA" , "pos" : [42.1903779, -70.9447679] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01153550", "sitename" : "WILLIAMS RIVER NEAR ROCKINGHAM VT" , "pos" : [43.1917433, -72.48508889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105606", "sitename" : "WHITMANS POND, WHITMANS POND DAM AT E. WEYMOUTH,MA" , "pos" : [42.2108333, -70.9294444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105608", "sitename" : "WHITMANS POND FISH LADDER AT EAST WEYMOUTH, MA" , "pos" : [42.21305556, -70.92638889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01046500", "sitename" : "Kennebec River at Bingham, Maine" , "pos" : [45.0519444, -69.8855556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01164000", "sitename" : "MILLERS RIVER AT SOUTH ROYALSTON, MA" , "pos" : [42.6298089, -72.15035928] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01183500", "sitename" : "WESTFIELD RIVER NEAR WESTFIELD, MA" , "pos" : [42.1067602, -72.698981] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01081500", "sitename" : "MERRIMACK RIVER AT FRANKLIN JUNCTION, NH" , "pos" : [43.42285456, -71.6528543] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105933", "sitename" : "PASKAMANSET RIVER NEAR SOUTH DARTMOUTH, MA" , "pos" : [41.58538185, -70.9903171] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01181000", "sitename" : "WEST BRANCH WESTFIELD RIVER AT HUNTINGTON, MA" , "pos" : [42.23731169, -72.895654] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01202501", "sitename" : "SHEPAUG RIVER AT PETERS DAM AT WOODVILLE, CT" , "pos" : [41.719575, -73.29260278] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01208950", "sitename" : "SASCO BROOK NEAR SOUTHPORT, CT." , "pos" : [41.15287436, -73.3059495] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01095375", "sitename" : "QUINAPOXET RIVER AT CANADA MILLS NEAR HOLDEN, MA" , "pos" : [42.37286967, -71.8281279] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105730", "sitename" : "INDIAN HEAD RIVER AT HANOVER, MA" , "pos" : [42.1006571, -70.8225415] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01081000", "sitename" : "WINNIPESAUKEE RIVER AT TILTON, NH" , "pos" : [43.44174376, -71.5875752] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01173000", "sitename" : "WARE RIVER AT INTAKE WORKS NEAR BARRE, MA" , "pos" : [42.3906461, -72.060355] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01124500", "sitename" : "LITTLE RIVER NEAR OXFORD, MA" , "pos" : [42.11592856, -71.89007238] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104460", "sitename" : "STONY BROOK AT RT 20 AT WALTHAM, MA" , "pos" : [42.368985, -71.2706123] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01175670", "sitename" : "SEVENMILE RIVER NEAR SPENCER, MA" , "pos" : [42.26509185, -72.0047973] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01170500", "sitename" : "CONNECTICUT RIVER AT MONTAGUE CITY, MA" , "pos" : [0.0, 0.0] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01138500", "sitename" : "CONNECTICUT RIVER AT WELLS RIVER, VT" , "pos" : [44.15339689, -72.0417577] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01197500", "sitename" : "HOUSATONIC RIVER NEAR GREAT BARRINGTON, MA" , "pos" : [42.23203299, -73.3548328] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01199000", "sitename" : "HOUSATONIC RIVER AT FALLS VILLAGE, CT." , "pos" : [41.95731548, -73.36928577] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01088400", "sitename" : "MERRIMACK RIVER AT CONCORD, NH" , "pos" : [43.20896997, -71.5303494] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01101000", "sitename" : "PARKER RIVER AT BYFIELD, MA" , "pos" : [42.75286948, -70.9456096] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01151500", "sitename" : "OTTAUQUECHEE RIVER AT NORTH HARTLAND, VT" , "pos" : [43.60257077, -72.35425819] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01203510", "sitename" : "POOTATUCK R AT SANDY HOOK, CT." , "pos" : [41.41925, -73.2821] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105880", "sitename" : "HERRING RIVER AT NORTH HARWICH, MA" , "pos" : [41.70011074, -70.1069625] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117000", "sitename" : "HUNT RIVER NEAR EAST GREENWICH, RI" , "pos" : [41.6412122, -71.4445016] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01161000", "sitename" : "ASHUELOT RIVER AT HINSDALE, NH" , "pos" : [42.78591586, -72.4861996] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01101500", "sitename" : "IPSWICH RIVER AT SOUTH MIDDLETON, MA" , "pos" : [42.56953869, -71.0269974] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01204000", "sitename" : "POMPERAUG RIVER AT SOUTHBURY, CT." , "pos" : [41.48193889, -73.2245722] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01208873", "sitename" : "ROOSTER RIVER AT FAIRFIELD, CT" , "pos" : [41.1798189, -73.21900219] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01078000", "sitename" : "SMITH RIVER NEAR BRISTOL, NH" , "pos" : [43.56646307, -71.747857] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01154950", "sitename" : "COLD RIVER AT HIGH STREET, AT ALSTEAD, NH" , "pos" : [43.14944444, -72.3616667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01197000", "sitename" : "EAST BRANCH HOUSATONIC RIVER AT COLTSVILLE, MA" , "pos" : [42.46952906, -73.19649229] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01175500", "sitename" : "SWIFT RIVER AT WEST WARE, MA" , "pos" : [42.2678699, -72.3325824] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01131500", "sitename" : "CONNECTICUT RIVER NEAR DALTON, NH" , "pos" : [44.4100591, -71.7206438] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01036390", "sitename" : "Penobscot River at Eddington, Maine" , "pos" : [44.82666667, -68.6966667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01018009", "sitename" : "Pearce Brook at Route 1 at Houlton, Maine" , "pos" : [46.11527778, -67.84027778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01122000", "sitename" : "NATCHAUG RIVER AT WILLIMANTIC, CT." , "pos" : [41.7201, -72.195575] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01108000", "sitename" : "TAUNTON RIVER NEAR BRIDGEWATER, MA" , "pos" : [41.9339903, -70.9564307] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01018000", "sitename" : "Meduxnekeag River near Houlton, Maine" , "pos" : [46.105, -67.8666667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01208500", "sitename" : "NAUGATUCK RIVER AT BEACON FALLS, CT." , "pos" : [41.4423, -73.0622833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01044550", "sitename" : "Spencer Stream near Grand Falls, Maine" , "pos" : [45.3136111, -70.2416667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209105", "sitename" : "ASPETUCK RIVER AT ASPETUCK, CT" , "pos" : [41.22874167, -73.3241194] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01206900", "sitename" : "NAUGATUCK RIVER AT THOMASTON, CT." , "pos" : [41.6737084, -73.0695527] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01054200", "sitename" : "Wild River at Gilead, Maine" , "pos" : [44.39055556, -70.9797222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01170100", "sitename" : "GREEN RIVER NEAR COLRAIN, MA" , "pos" : [42.70341695, -72.67064738] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01097300", "sitename" : "NASHOBA BROOK NEAR ACTON, MA" , "pos" : [42.51259289, -71.40422829] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01196561", "sitename" : "Muddy River near East Wallingford" , "pos" : [41.4356083, -72.7794917] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01102000", "sitename" : "IPSWICH RIVER NEAR IPSWICH, MA" , "pos" : [42.6598157, -70.8936622] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115114", "sitename" : "RUSH BROOK NEAR ELMDALE RD NEAR NORTH SCITUATE, RI" , "pos" : [41.83759929, -71.6120089] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115110", "sitename" : "HUNTINGHOUSE BK AT ELMDALE RD AT N SCITUATE, RI" , "pos" : [41.84676589, -71.6117311] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01124151", "sitename" : "QUINEBAUG R AT WEST THOMPSON, CONN." , "pos" : [41.94356667, -71.8995972] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01052500", "sitename" : "Diamond River near Wentworth Location, NH" , "pos" : [44.8775, -71.0575] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01034500", "sitename" : "Penobscot River at West Enfield, Maine" , "pos" : [45.2361111, -68.65138889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01176000", "sitename" : "QUABOAG RIVER AT WEST BRIMFIELD, MA" , "pos" : [42.18231566, -72.263691] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01109000", "sitename" : "WADING RIVER NEAR NORTON, MA" , "pos" : [41.94760015, -71.1767155] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105583", "sitename" : "MONATIQUOT RIVER AT EAST BRAINTREE, MA" , "pos" : [42.22093308, -70.9781026] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105584", "sitename" : "TOWN BROOK AT DIVERSION TUNNEL AT QUINCY, MA" , "pos" : [42.24444444, -71.0044444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105585", "sitename" : "TOWN BROOK AT QUINCY, MA" , "pos" : [42.24787726, -70.9972703] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104500", "sitename" : "CHARLES RIVER AT WALTHAM, MA" , "pos" : [42.37231857, -71.2336668] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01212500", "sitename" : "BYRAM RIVER AT PEMBERWICK" , "pos" : [41.0272972, -73.66175] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01021000", "sitename" : "St. Croix River at Baring, Maine" , "pos" : [45.1369444, -67.3180556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01054114", "sitename" : "Peabody River at Gorham, New Hampshire" , "pos" : [44.38131944, -71.1706556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01187300", "sitename" : "HUBBARD RIVER NR. WEST HARTLAND, CT." , "pos" : [42.0375, -72.93932778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01021470", "sitename" : "Libby Brook near Northfield, Maine" , "pos" : [44.8008333, -67.725] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01198125", "sitename" : "HOUSATONIC RIVER NR ASHLEY FALLS, MA." , "pos" : [42.0748138, -73.33344858] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "012095493", "sitename" : "Ridgefield Brook at Shields Lane nr Ridgefield, CT" , "pos" : [41.31408889, -73.4928944] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01054500", "sitename" : "Androscoggin River at Rumford, Maine" , "pos" : [44.5519444, -70.5441667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01153000", "sitename" : "BLACK RIVER AT NORTH SPRINGFIELD, VT" , "pos" : [43.33340716, -72.51481258] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01111500", "sitename" : "BRANCH RIVER AT FORESTDALE, RI" , "pos" : [41.99648716, -71.5625632] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01125000", "sitename" : "FRENCH RIVER AT WEBSTER, MA" , "pos" : [42.0509298, -71.88507208] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01195490", "sitename" : "QUINNIPIAC RIVER AT SOUTHINGTON, CT." , "pos" : [41.6034722, -72.8832] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "011230695", "sitename" : "SHETUCKET RIVER AT TAFTVILLE, CONN." , "pos" : [41.57000278, -72.0462444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01063310", "sitename" : "Stony Brook at East Sebago, Maine" , "pos" : [43.85555556, -70.6397222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01171500", "sitename" : "MILL RIVER AT NORTHAMPTON, MA" , "pos" : [42.31897839, -72.6650907] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100600", "sitename" : "SHAWSHEEN RIVER NEAR WILMINGTON, MA" , "pos" : [42.5681488, -71.2147792] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01155910", "sitename" : "WEST RIVER BELOW TOWNSHEND DAM NEAR TOWNSHEND, VT" , "pos" : [43.0511901, -72.7000939] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01150900", "sitename" : "OTTAUQUECHEE RIVER NEAR WEST BRIDGEWATER, VT" , "pos" : [43.62229069, -72.7589899] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01199050", "sitename" : "SALMON CREEK AT LIME ROCK, CT." , "pos" : [41.94231548, -73.3909532] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209901", "sitename" : "RIPPOWAM RIVER AT STAMFORD, CT." , "pos" : [41.0661111, -73.5492722] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01155349", "sitename" : "WEST RIVER BELOW WINHALL RIVER, NEAR JAMAICA, VT" , "pos" : [43.15694444, -72.79777778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01096840", "sitename" : "ASSABET RIVER 200 FT BELOW RT 85 AT HUDSON, MA" , "pos" : [42.39, -71.5697222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01158600", "sitename" : "OTTER BROOK BELOW OTTER BROOK DAM, NEAR KEENE, NH" , "pos" : [42.94591409, -72.2367514] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01191000", "sitename" : "NORTH BRANCH PARK R AT HARTFORD, CT." , "pos" : [41.78443889, -72.7080556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01013500", "sitename" : "Fish River near Fort Kent, Maine" , "pos" : [47.2375, -68.58277778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01125500", "sitename" : "QUINEBAUG RIVER AT PUTNAM, CT" , "pos" : [41.909475, -71.91386389] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01123600", "sitename" : "QUINEBAUG R BL WESTVILLE DAM NR SOUTHBRIDGE, MA" , "pos" : [42.08261944, -72.0583806] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117370", "sitename" : "QUEEN R AT LIBERTY RD AT LIBERTY RI" , "pos" : [41.53898957, -71.568673] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01155500", "sitename" : "WEST RIVER AT JAMAICA, VT" , "pos" : [43.1089665, -72.775374] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01030350", "sitename" : "Wytopitlock Stream near Wytopitlock Maine" , "pos" : [45.7086111, -68.1580556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100500", "sitename" : "MERRIMACK RIVER AT LAWRENCE, MA" , "pos" : [42.7048333, -71.15313889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100505", "sitename" : "SPICKET RIVER AT NORTH SALEM, NH" , "pos" : [42.8492547, -71.2150607] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115098", "sitename" : "PEEPTOAD BROOK AT ELMDALE RD NR NORTH SCITUATE, RI" , "pos" : [41.8525992, -71.6061754] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01031500", "sitename" : "Piscataquis River near Dover-Foxcroft, Maine" , "pos" : [45.175, -69.3147222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01077400", "sitename" : "COCKERMOUTH RIVER BELOW HARDY BROOK, AT GROTON, NH" , "pos" : [43.70388889, -71.8333333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01022294", "sitename" : "East Br Bear Brook near Beddington, Maine" , "pos" : [44.85909167, -68.10396389] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01022295", "sitename" : "West Br Bear Brook near Beddington, Maine" , "pos" : [44.858575, -68.1031694] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01034000", "sitename" : "Piscataquis River at Medford, Maine" , "pos" : [45.26055556, -68.8686111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209700", "sitename" : "NORWALK R AT SOUTH WILTON, CT." , "pos" : [41.16376667, -73.4195444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01141500", "sitename" : "OMPOMPANOOSUC RIVER AT UNION VILLAGE, VT" , "pos" : [43.79006996, -72.254813] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105607", "sitename" : "WHITMANS POND FLOOD BY-PASS AT EAST WEYMOUTH, MA" , "pos" : [42.21277778, -70.9275] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01201487", "sitename" : "STILL RIVER AT ROUTE 7 AT BROOKFIELD CENTER, CT." , "pos" : [41.4658222, -73.40320278] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01130000", "sitename" : "UPPER AMMONOOSUC RIVER NEAR GROVETON, NH" , "pos" : [44.62505316, -71.4689721] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01192883", "sitename" : "COGINCHAUG RIVER AT MIDDLEFIELD, CT" , "pos" : [41.5202333, -72.7065306] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01121330", "sitename" : "FENTON RIVER AT MANSFIELD,CT" , "pos" : [41.83319444, -72.2427806] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01109730", "sitename" : "BLACKSTONE RIVER, W. MAIN ST., AT MILLBURY, MA" , "pos" : [42.1889835, -71.7650702] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01119500", "sitename" : "WILLIMANTIC RIVER NEAR COVENTRY, CT." , "pos" : [41.7506544, -72.26563469] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01097000", "sitename" : "ASSABET RIVER AT MAYNARD, MA" , "pos" : [42.432038, -71.4497848] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01189995", "sitename" : "FARMINGTON RIVER AT TARIFFVILLE, CT." , "pos" : [41.9082833, -72.75935278] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01049265", "sitename" : "Kennebec River at North Sidney, Maine" , "pos" : [44.4722222, -69.68388889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01208925", "sitename" : "MILL R NR FAIRFIELD, CT" , "pos" : [41.165475, -73.2700083] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01103025", "sitename" : "ALEWIFE BROOK NEAR ARLINGTON, MA" , "pos" : [42.40704077, -71.1339422] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01096500", "sitename" : "NASHUA RIVER AT EAST PEPPERELL, MA" , "pos" : [42.66758945, -71.57506809] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01085000", "sitename" : "CONTOOCOOK RIVER NEAR HENNIKER, NH" , "pos" : [43.1520237, -71.85730149] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01196620", "sitename" : "MILL R NR HAMDEN, CT." , "pos" : [41.42041389, -72.9026583] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105870", "sitename" : "JONES RIVER AT KINGSTON, MA" , "pos" : [41.9909362, -70.7336491] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01049500", "sitename" : "Cobbosseecontee Stream at Gardiner, Maine" , "pos" : [44.22916667, -69.7780556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01076500", "sitename" : "PEMIGEWASSET RIVER AT PLYMOUTH, NH" , "pos" : [43.7592388, -71.6856337] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01111230", "sitename" : "BLACKSTONE RIVER AT MILLVILLE, MA" , "pos" : [42.0228757, -71.5722859] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01203600", "sitename" : "NONEWAUG RIVER AT MINORTOWN, CT." , "pos" : [41.57585, -73.1784667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104475", "sitename" : "STONY BROOK RES., UNNAMED TRIB 1, NEAR WESTON, MA" , "pos" : [42.3545408, -71.2681121] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01102345", "sitename" : "SAUGUS RIVER AT SAUGUS IRONWORKS AT SAUGUS, MA" , "pos" : [42.4695404, -71.0069954] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01135500", "sitename" : "PASSUMPSIC RIVER AT PASSUMPSIC, VT" , "pos" : [44.3656147, -72.0392613] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01075000", "sitename" : "PEMIGEWASSET RIVER AT WOODSTOCK, NH" , "pos" : [43.9761792, -71.6795244] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01188000", "sitename" : "BUNNELL (BURLINGTON) BR NR BURLINGTON, CT" , "pos" : [41.786209, -72.9648261] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01127000", "sitename" : "QUINEBAUG RIVER AT JEWETT CITY, CT." , "pos" : [41.59749167, -71.9840944] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105554", "sitename" : "NEPONSET RIVER AT GREENLODGE ST NEAR CANTON, MA" , "pos" : [42.2092655, -71.1458851] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01017290", "sitename" : "Little Madawaska River at Caribou, Maine" , "pos" : [46.8886111, -67.945] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01116905", "sitename" : "HUNT R 250 FT DS FRY BRK AT FRENCHTOWN, RI" , "pos" : [41.63, -71.47888889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01111300", "sitename" : "NIPMUC RIVER NEAR HARRISVILLE, RI" , "pos" : [41.9812093, -71.68590049] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01105000", "sitename" : "NEPONSET RIVER AT NORWOOD, MA" , "pos" : [42.1775987, -71.2008863] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115280", "sitename" : "CORK BK AT ROCKLAND SCITUATE RD NR CLAYVILLE, RI" , "pos" : [41.80398827, -71.6497879] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01055000", "sitename" : "Swift River near Roxbury, Maine" , "pos" : [44.64277778, -70.58888889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01037380", "sitename" : "Ducktrap River near Lincolnville, Maine" , "pos" : [44.32916667, -69.0608333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01200000", "sitename" : "TENMILE RIVER NEAR GAYLORDSVILLE, CT" , "pos" : [41.65876389, -73.5286833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01087000", "sitename" : "BLACKWATER RIVER NEAR WEBSTER, NH" , "pos" : [43.2970225, -71.6945212] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01064500", "sitename" : "Saco River near Conway, NH" , "pos" : [43.9908333, -71.0905556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01047000", "sitename" : "Carrabassett River near North Anson, Maine" , "pos" : [44.86916667, -69.955] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01174565", "sitename" : "WEST BRANCH SWIFT RIVER NEAR SHUTESBURY, MA" , "pos" : [42.45508906, -72.3817516] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01066000", "sitename" : "Saco River at Cornish, Maine" , "pos" : [43.80805556, -70.7816667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01069700", "sitename" : "Branch Brook near Kennebunk, Maine" , "pos" : [43.37916667, -70.5833333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01127500", "sitename" : "YANTIC RIVER AT YANTIC, CT." , "pos" : [41.5587094, -72.1214666] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01114000", "sitename" : "MOSHASSUCK RIVER AT PROVIDENCE, RI" , "pos" : [41.833989, -71.41061208] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01055500", "sitename" : "Nezinscot River at Turner Center, Maine" , "pos" : [44.26944444, -70.2297222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115190", "sitename" : "DOLLY COLE BK AT OLD DANIELSON PK AT S FOSTER, RI" , "pos" : [41.8223213, -71.70034528] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104200", "sitename" : "CHARLES RIVER AT WELLESLEY, MA" , "pos" : [42.3164861, -71.227833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01160350", "sitename" : "ASHUELOT RIVER AT WEST SWANZEY, NH" , "pos" : [42.87008189, -72.3281415] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01137940", "sitename" : "AMMONOOSUC RIVER BELOW LISBON DAM, AT LISBON, NH" , "pos" : [44.2125, -71.9141667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01172010", "sitename" : "CONNECTICUT R AT I-391 BRIDGE AT HOLYOKE, MA" , "pos" : [42.19146944, -72.6093111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01093852", "sitename" : "SOUHEGAN RIVER (SITE WLR-1) NEAR MILFORD, NH" , "pos" : [42.8425858, -71.7067399] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01110500", "sitename" : "BLACKSTONE RIVER AT NORTHBRIDGE, MA" , "pos" : [42.15370688, -71.65201138] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01125490", "sitename" : "LITTLE RIVER AT HARRISVILLE, CT" , "pos" : [41.92784444, -71.9300083] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01095220", "sitename" : "STILLWATER RIVER NEAR STERLING, MA" , "pos" : [42.41092507, -71.7911829] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01055220", "sitename" : "Dead River at Leeds, Maine" , "pos" : [44.31805556, -70.1222222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01076000", "sitename" : "BAKER RIVER NEAR RUMNEY, NH" , "pos" : [43.79562647, -71.8453594] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115265", "sitename" : "HEMLOCK BROOK AT KING ROAD NR FOSTER, RI" , "pos" : [41.7906548, -71.6986785] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01092000", "sitename" : "MERRIMACK R NR GOFFS FALLS, BELOW MANCHESTER, NH" , "pos" : [42.9481405, -71.4634002] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01160000", "sitename" : "S BR ASHUELOT RIVER AT WEBB, NR MARLBOROUGH, NH" , "pos" : [42.8720265, -72.2136952] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01011000", "sitename" : "Allagash River near Allagash, Maine" , "pos" : [47.0697222, -69.0794444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01098500", "sitename" : "COCHITUATE BK BL LAKE COCHITUATE AT FRAMINGHAM, MA" , "pos" : [0.0, 0.0] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01109070", "sitename" : "SEGREGANSET RIVER NEAR DIGHTON, MA" , "pos" : [41.840379, -71.142824] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01085500", "sitename" : "CONTOOCOOK R BL HOPKINTON DAM AT W HOPKINTON, NH" , "pos" : [43.1928569, -71.7472995] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01163500", "sitename" : "MILLERS R BL BIRCH HILL DAM AT SOUTH ROYALSTON, MA" , "pos" : [42.63258676, -72.12313648] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01010500", "sitename" : "St. John River at Dickey, Maine" , "pos" : [47.11305556, -69.0880556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01082000", "sitename" : "CONTOOCOOK RIVER AT PETERBOROUGH, NH" , "pos" : [42.8625837, -71.95924609] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01144000", "sitename" : "WHITE RIVER AT WEST HARTFORD, VT" , "pos" : [43.71423614, -72.418149] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01180500", "sitename" : "MIDDLE BRANCH WESTFIELD RIVER AT GOSS HEIGHTS, MA" , "pos" : [42.25870025, -72.8725975] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01158110", "sitename" : "ASHUELOT RIVER ABOVE THE BRANCH, AT KEENE, NH" , "pos" : [42.9192478, -72.279252] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01037050", "sitename" : "Penobscot River at Bangor, Maine" , "pos" : [44.79638889, -68.76777778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01121000", "sitename" : "MOUNT HOPE RIVER NEAR WARRENVILLE, CT." , "pos" : [41.8437089, -72.1689662] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01154500", "sitename" : "CONNECTICUT RIVER AT NORTH WALPOLE, NH" , "pos" : [43.12618905, -72.4367549] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104405", "sitename" : "HOBBS BROOK AT MILL ST NR LINCOLN, MA" , "pos" : [42.436484, -71.2695014] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01205500", "sitename" : "HOUSATONIC RIVER AT STEVENSON, CT." , "pos" : [41.38380278, -73.16663889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01017000", "sitename" : "Aroostook River at Washburn, Maine" , "pos" : [46.7772222, -68.1572222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01100000", "sitename" : "MERRIMACK RIVER BL CONCORD RIVER AT LOWELL, MA" , "pos" : [42.64592464, -71.2983937] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01017550", "sitename" : "Williams Brook at Phair, Maine" , "pos" : [46.62805556, -67.9530556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117468", "sitename" : "BEAVER RIVER NEAR USQUEPAUG, RI" , "pos" : [41.49260037, -71.6281194] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01118500", "sitename" : "PAWCATUCK RIVER AT WESTERLY, RI" , "pos" : [41.38371065, -71.8331247] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01133000", "sitename" : "EAST BRANCH PASSUMPSIC RIVER NEAR EAST HAVEN, VT" , "pos" : [44.63394195, -71.8975942] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01124350", "sitename" : "FRENCH RIVER BELOW DAM, AT HODGES VILLAGE, MA" , "pos" : [42.11842857, -71.8811833] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01030500", "sitename" : "Mattawamkeag River near Mattawamkeag, Maine" , "pos" : [45.5011111, -68.3058333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01173500", "sitename" : "WARE RIVER AT GIBBS CROSSING, MA" , "pos" : [42.2362038, -72.27258047] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01166500", "sitename" : "MILLERS RIVER AT ERVING, MA" , "pos" : [42.5975862, -72.4381423] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01112500", "sitename" : "BLACKSTONE RIVER AT WOONSOCKET, RI" , "pos" : [42.00620936, -71.5031168] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01169900", "sitename" : "SOUTH RIVER NEAR CONWAY, MA" , "pos" : [42.5420303, -72.69370179] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01129500", "sitename" : "CONNECTICUT RIVER AT NORTH STRATFORD, NH" , "pos" : [44.74977166, -71.63120018] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01122500", "sitename" : "SHETUCKET RIVER NEAR WILLIMANTIC, CT." , "pos" : [41.70037644, -72.1820223] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01157000", "sitename" : "ASHUELOT RIVER NEAR GILSUM, NH" , "pos" : [43.03924586, -72.2700858] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01073587", "sitename" : "EXETER RIVER AT HAIGH ROAD, NEAR BRENTWOOD, NH" , "pos" : [42.9845316, -71.038392] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01194000", "sitename" : "EIGHTMILE R AT NORTH PLAIN, CT." , "pos" : [41.44166944, -72.33267778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01089100", "sitename" : "SOUCOOK RIVER, AT PEMBROKE ROAD, NEAR CONCORD, NH" , "pos" : [43.21369248, -71.4803481] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01186500", "sitename" : "STILL RIVER AT ROBERTSVILLE, CT." , "pos" : [41.9679222, -73.0334444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01139800", "sitename" : "EAST ORANGE BRANCH AT EAST ORANGE, VT" , "pos" : [44.0928419, -72.33565327] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117800", "sitename" : "WOOD RIVER NEAR ARCADIA, RI" , "pos" : [41.5739884, -71.72062318] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104715", "sitename" : "CHARLES RIVER, NEW CHARLES RIVER DAM AT BOSTON, MA" , "pos" : [42.36888889, -71.0616667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01018500", "sitename" : "St. Croix River at Vanceboro, Maine" , "pos" : [45.5683333, -67.4283333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01094500", "sitename" : "NORTH NASHUA RIVER NEAR LEOMINSTER, MA" , "pos" : [42.49506389, -71.7219333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01021200", "sitename" : "Dennys River at Dennysville, Maine" , "pos" : [44.90138889, -67.2475] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01192500", "sitename" : "HOCKANUM RIVER NEAR EAST HARTFORD, CT." , "pos" : [41.7831548, -72.5873114] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01114500", "sitename" : "WOONASQUATUCKET RIVER AT CENTERDALE, RI" , "pos" : [41.8589884, -71.4872823] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01031510", "sitename" : "Black Stream near Dover-Foxcroft, Maine" , "pos" : [45.15027778, -69.23638889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01057000", "sitename" : "Little Androscoggin River near South Paris, Maine" , "pos" : [44.30388889, -70.5397222] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01049505", "sitename" : "Kennebec River at Gardiner, Maine" , "pos" : [44.23027778, -69.7694444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01165000", "sitename" : "EAST BRANCH TULLY RIVER NEAR ATHOL, MA" , "pos" : [42.6423083, -72.22563877] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01068910", "sitename" : "Mousam River at Route 4 near Sanford, Maine" , "pos" : [43.4183333, -70.7380556] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01102500", "sitename" : "ABERJONA RIVER AT WINCHESTER, MA" , "pos" : [0.0, 0.0] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01089925", "sitename" : "SUNCOOK RIVER AT NH 28, NEAR SUNCOOK, NH" , "pos" : [43.15980438, -71.4059011] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01103050", "sitename" : "MYSTIC R AT AMELIA EARHART DAM NR SOMERVILLE, MA" , "pos" : [42.39565236, -71.07505177] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01129200", "sitename" : "CONNECTICUT R BELOW INDIAN STREAM NR PITTSBURG, NH" , "pos" : [45.04032368, -71.4439704] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01177000", "sitename" : "CHICOPEE RIVER AT INDIAN ORCHARD, MA" , "pos" : [42.16064906, -72.5139756] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01031300", "sitename" : "Piscataquis River at Blanchard, Maine" , "pos" : [45.2672222, -69.58388889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01194500", "sitename" : "EAST BRANCH EIGHTMILE RIVER NEAR NORTH LYME, CT." , "pos" : [41.42751667, -72.33477778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01111200", "sitename" : "WEST RIVER BELOW WEST HILL DAM, NR UXBRIDGE, MA" , "pos" : [42.1048189, -71.6072875] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01072870", "sitename" : "ISINGLASS R AT ROCHESTER NECK RD, NR DOVER, NH" , "pos" : [43.23480487, -70.9564507] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01098530", "sitename" : "SUDBURY RIVER AT SAXONVILLE, MA" , "pos" : [42.3253732, -71.3975605] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01103280", "sitename" : "CHARLES RIVER AT MEDWAY, MA" , "pos" : [42.1398197, -71.3895032] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01104430", "sitename" : "HOBBS BK BELOW CAMBRIDGE RES NR KENDALL GREEN, MA" , "pos" : [42.3981512, -71.2733903] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01162500", "sitename" : "PRIEST BROOK NEAR WINCHENDON, MA" , "pos" : [42.6825859, -72.1150812] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01117420", "sitename" : "USQUEPAUG RIVER NEAR USQUEPAUG, RI" , "pos" : [41.4767673, -71.6047849] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209005", "sitename" : "Saugatuck R below Saugatuck Res nr Lyons Plain, CT" , "pos" : [41.24551389, -73.3492361] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01158000", "sitename" : "ASHUELOT RIVER BELOW SURRY MT DAM, NEAR KEENE, NH" , "pos" : [42.9948023, -72.31119719] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01037000", "sitename" : "Kenduskeag Stream near Bangor, Maine" , "pos" : [44.8611111, -68.8316667] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01137500", "sitename" : "AMMONOOSUC RIVER AT BETHLEHEM JUNCTION, NH" , "pos" : [44.2686741, -71.6303617] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01124000", "sitename" : "QUINEBAUG RIVER AT QUINEBAUG, CT." , "pos" : [42.0223189, -71.9556289] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115297", "sitename" : "WILBUR HOLLOW BK AT OLD PLAINFIELD PK NR CLAYVILLE" , "pos" : [41.7648219, -71.6356207] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01072800", "sitename" : "COCHECO RIVER NEAR ROCHESTER, NH." , "pos" : [43.26841527, -70.9736739] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01073785", "sitename" : "WINNICUT RIVER AT GREENLAND, NR PORTSMOUTH, NH" , "pos" : [43.03675487, -70.8481104] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01195100", "sitename" : "INDIAN RIVER NEAR CLINTON, CT." , "pos" : [41.3061722, -72.5310333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01184100", "sitename" : "STONY BROOK NEAR WEST SUFFIELD, CT." , "pos" : [41.96083889, -72.7104861] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01186000", "sitename" : "WEST BRANCH FARMINGTON RIVER AT RIVERTON, CT" , "pos" : [41.9628729, -73.017606] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01162000", "sitename" : "MILLERS RIVER NEAR WINCHENDON, MA" , "pos" : [42.6842527, -72.08341388] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01135150", "sitename" : "POPE BROOK (SITE W-3) NEAR NORTH DANVILLE, VT" , "pos" : [44.47616707, -72.1245431] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01048220", "sitename" : "East Branch Wesserunsett Stream near Athens, Maine" , "pos" : [44.9475, -69.6569444] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01099500", "sitename" : "CONCORD R BELOW R MEADOW BROOK, AT LOWELL, MA" , "pos" : [42.6367581, -71.3020047] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01067950", "sitename" : "Kennebunk River near Kennebunk, Maine" , "pos" : [43.4322222, -70.5533333] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01116000", "sitename" : "SOUTH BRANCH PAWTUXET RIVER AT WASHINGTON, RI" , "pos" : [41.69010026, -71.5658958] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01168500", "sitename" : "DEERFIELD RIVER AT CHARLEMONT, MA" , "pos" : [0.0, 0.0] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01193050", "sitename" : "CONNECTICUT R AT MIDDLE HADDAM, CT" , "pos" : [41.5417656, -72.5531454] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115183", "sitename" : "QUONAPAUG BK AT RT 116 NR NORTH SCITUATE, RI" , "pos" : [41.79759966, -71.5847857] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115184", "sitename" : "SPRUCE BROOK NR NORTH SCITUATE, RI" , "pos" : [41.7887107, -71.6200647] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115187", "sitename" : "PONAGANSET RIVER AT SOUTH FOSTER, RI" , "pos" : [41.8187102, -71.7050677] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01021480", "sitename" : "Old Stream near Wesley, Maine" , "pos" : [44.9369444, -67.7361111] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "010735562", "sitename" : "EXETER RIVER AT ODELL ROAD, NEAR SANDOWN, NH" , "pos" : [42.94897557, -71.16478279] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01119382", "sitename" : "WILLIMANTIC RIVER AT MERROW RD. NEAR MERROW, CT" , "pos" : [41.8240111, -72.3128472] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01108410", "sitename" : "MILL RIVER AT SPRING STREET AT TAUNTON, MA" , "pos" : [41.8998232, -71.0894897] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01174500", "sitename" : "EAST BRANCH SWIFT RIVER NEAR HARDWICK, MA" , "pos" : [42.3934237, -72.2386926] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01123000", "sitename" : "LITTLE RIVER NEAR HANOVER, CT." , "pos" : [41.6717651, -72.05229807] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01135300", "sitename" : "SLEEPERS RIVER (SITE W-5) NEAR ST. JOHNSBURY, VT" , "pos" : [44.4353353, -72.03842899] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01116500", "sitename" : "PAWTUXET RIVER AT CRANSTON, RI" , "pos" : [41.75093399, -71.4450575] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01019000", "sitename" : "Grand Lake Stream at Grand Lake Stream, Maine" , "pos" : [45.1725, -67.76888889] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01120790", "sitename" : "NATCHAUG RIVER AT MARCY RD. NEAR CHAPLIN, CT" , "pos" : [41.81616944, -72.1061694] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01096000", "sitename" : "SQUANNACOOK RIVER NEAR WEST GROTON, MA" , "pos" : [42.63425619, -71.6578479] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01196500", "sitename" : "QUINNIPIAC RIVER AT WALLINGFORD, CT." , "pos" : [41.45026389, -72.841275] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01198000", "sitename" : "GREEN RIVER NEAR GREAT BARRINGTON, MA" , "pos" : [42.1929083, -73.3912306] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01209761", "sitename" : "FIVEMILE RIVER NEAR NEW CANAAN, CT." , "pos" : [41.1743222, -73.51107778] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115170", "sitename" : "MOSWANSICUT STREAM NR NORTH SCITUATE, RI" , "pos" : [41.84093269, -71.584508] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01172500", "sitename" : "WARE RIVER NEAR BARRE, MA" , "pos" : [42.42509025, -72.0245212] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01073000", "sitename" : "OYSTER RIVER NEAR DURHAM, NH" , "pos" : [43.1486955, -70.9650603] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115276", "sitename" : "WESTCONNAUG STREAM AT PLAINFIELD PIKE, RI" , "pos" : [41.7853772, -71.6672885] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
+{ "_id" : "01115275", "sitename" : "BEAR TREE BROOK NR CLAYVILLE, RI" , "pos" : [41.7825994, -71.67478879] , "flow" : "0" , "height" : "0" , "timestamp" : "0" }
