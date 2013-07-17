@@ -61,10 +61,12 @@ def within():
     lon2 = float(request.args.get('lon2'))
 
     #use the request parameters in the query
-    result = db.gaugepoints.find({"pos": {"$within": {"$box" : [[lon1,lat1],[lon2,lat2]]}}})
+#    result = db.gaugepoints.find({"pos": {"$within": {"$box" : [[lon1,lat1],[lon2,lat2]]}}})
 
     #turn the results into valid JSON
-    return str(json.dumps({'results' : list(result)},default=json_util.default))
+#    return str(json.dumps({'results' : list(result)},default=json_util.default))
+
+    return lat1
 
 
 #find gauges with a certain name (use regex) near a lat long pair such as above
