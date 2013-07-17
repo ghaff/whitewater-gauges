@@ -7,7 +7,7 @@
     	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
 	<![endif]-->
 	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />	<style type="text/css">
 		body {
     		padding: 0;
@@ -15,7 +15,7 @@
 		}
 		html, body, #map {
 		    height: 100%;
-		    font-family: 'Milonga', cursive;
+		    font-family: 'Montserrat:700';
 		}
 		.leaflet-container .leaflet-control-zoom {
 		    margin-left: 13px;
@@ -67,6 +67,7 @@
 
 		map.on('dragend', getPins);	
 		map.on('zoomend', getPins);
+
 		map.whenReady(getPins)
 		
 	</script>
