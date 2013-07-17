@@ -90,12 +90,12 @@ def nameNear(name):
     return str(json.dumps({'results' : list(result)},default=json_util.default))
 
 
-@app.route("/test")
+@app.route("/")
 def test():
     return render_template("index.html")
     
 #need this in a scalable app so that HAProxy thinks the app is up
-@app.route("/")
+@app.route("/test")
 def blah():
     return "hello world"
 
