@@ -87,7 +87,7 @@ def nameNear(name):
     result = db.gaugepoints.find({"Name" : myregex, "pos" : { "$near" : [lon,lat]}})
 
     #turn the results into valid JSON
-    return str(json.dumps({'results' : list(result)},default=json_util.default))
+    return str(json.dumps(list(result),default=json_util.default))
 
 
 @app.route("/")
