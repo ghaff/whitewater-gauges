@@ -1,6 +1,7 @@
 import os
 from flask import Flask
 from flask import request
+from flask import render_template
 import pymongo
 import json
 from bson import json_util
@@ -89,7 +90,7 @@ def nameNear(name):
 
 @app.route("/test")
 def test():
-    return "<strong>It actually worked</strong>"
+    return render_template("index.html")
     
 #need this in a scalable app so that HAProxy thinks the app is up
 @app.route("/")
