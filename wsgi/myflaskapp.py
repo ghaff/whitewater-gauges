@@ -66,7 +66,7 @@ def within():
     #turn the results into valid JSON
 #    return str(json.dumps({'results' : list(result)},default=json_util.default))
 
-    return "foobar"
+    return str(lat1)
 
 
 #find gauges with a certain name (use regex) near a lat long pair such as above
