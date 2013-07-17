@@ -30,23 +30,6 @@ def gauges():
 
 
 
-#find gauges near a lat and long passed in as query parameters (near?lat=45.5&lon=-82)
-@app.route("/ws/gauges/near")
-def near():
-    #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn.gauges
-
-    #get the request parameters
-    lat = float(request.args.get('lat'))
-    lon = float(request.args.get('lon'))
-
-    #use the request parameters in the query
-    result = db.gaugepoints.find({"pos" : { "$near" : [lon,lat]}})
-
-    #turn the results into valid JSON
-    return str(json.dumps({'results' : list(result)},default=json_util.default))
-
 #find gauges within a lot/long bounding box passed in as query parameters (within?lat1=45.5&&lon1=-82&lat2=42&lon2=-84)
 @app.route("/ws/gauges/within")
 def within():
@@ -65,29 +48,6 @@ def within():
 
     #turn the results into valid JSON
     return str(json.dumps(list(result),default=json_util.default))
-
-
-
-
-#find gauges with a certain name (use regex) near a lat long pair such as above
-@app.route("/ws/gauges/name/near/<name>")
-def nameNear(name):
-    #setup the connection
-    conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-    db = conn.gauges
-
-    #get the request parameters
-    lat = float(request.args.get('lat'))
-    lon = float(request.args.get('lon'))
-
-    #compile the regex we want to search for and make it case insensitive
-    myregex = re.compile(name, re.I)
-
-    #use the request parameters in the query along with the regex
-    result = db.gaugepoints.find({"Name" : myregex, "pos" : { "$near" : [lon,lat]}})
-
-    #turn the results into valid JSON
-    return str(json.dumps({'results' : list(result)},default=json_util.default))
 
 
 @app.route("/")
