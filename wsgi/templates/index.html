@@ -57,7 +57,7 @@
 			var markerArray = new Array(data.length)
 			for (var i = 0; i < data.length; i++){
 				park = data[i];
-                                markertext = park.sitename + "\n" + "feet\n" + "cfs"
+                                markertext = "<b>"+park.sitename + "</b><br \>" + "feet<br \>" + "cfs"
 				markerArray[i] = L.marker([park.pos[1], park.pos[0]]).bindPopup(markertext);			
 			}
 			
