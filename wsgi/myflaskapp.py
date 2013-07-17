@@ -64,7 +64,7 @@ def within():
     result = db.gaugepoints.find({"pos": {"$within": {"$box" : [[lon1,lat1],[lon2,lat2]]}}})
 
     #turn the results into valid JSON
-    return str(json.dumps({'results' : list(result)},default=json_util.default))
+    return str(json.dumps(list(result),default=json_util.default))
 
 
 
@@ -87,7 +87,7 @@ def nameNear(name):
     result = db.gaugepoints.find({"Name" : myregex, "pos" : { "$near" : [lon,lat]}})
 
     #turn the results into valid JSON
-    return str(json.dumps(result))
+    return str(json.dumps({'results' : list(result)},default=json_util.default))
 
 
 @app.route("/")
