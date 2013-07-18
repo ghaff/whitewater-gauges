@@ -67,17 +67,17 @@ for i in range(0,1):
 #Gage ht. ft. variableID 45807202
 
         if variablecode == '45807202':
-            db.gaugedata.update({"_id":agaugenum,{"height":variablevalue})
+            db.gaugedata.update({"_id":agaugenum},{"height":variablevalue})
 
 #Discharge cfs variableID 45807197
 
         if variablecode == '45807197':
-            db.gaugedata.update({"_id":agaugenum,{"flow":variablevalue})
+            db.gaugedata.update({"_id":agaugenum},{"flow":variablevalue})
          
 #save creation time so that we can throw out any stale data
     
 
-        db.gaugedata.update({"_id":agaugenum,{"timestamp":creationtime})
+        db.gaugedata.update({"_id":agaugenum},{"timestamp":creationtime})
         
                 
     
