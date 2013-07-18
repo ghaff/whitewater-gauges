@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Parse USGS JSON files
 # Populates the sites using the original URL requests
 # USGS site doesn't seem to let you just dump everything
