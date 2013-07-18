@@ -74,7 +74,7 @@ for i in range(0,1):
 #Discharge cfs variableID 45807197
 
         if variablecode == '45807197':
-            db.gaugepoints.update({"_id":agaugenum},{"$set:":{"flow":variablevalue}})
+            db.gaugepoints.update({"_id":agaugenum},{"$set":{"flow":variablevalue}})
          
 #save creation time so that we can throw out any stale data
     
