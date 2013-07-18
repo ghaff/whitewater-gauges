@@ -19,8 +19,8 @@ import os
 output = {}
 
 #setup the connection to the gauges database
-#conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
-#db = conn.gauges
+conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
+db = conn.gauges
 
 # for working purposes, only pulling in New England
 
