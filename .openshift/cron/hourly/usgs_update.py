@@ -17,12 +17,17 @@ import io
 import urllib2
 import pymongo
 import os
+from time import gmtime, strftime
 
 output = {}
 
 #setup the connection to the gauges database
 conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
 db = conn.gauges
+f.open('logfile','w')
+f.write(strftime("%Y-%m-%d %H:%M:%S"))
+f.close()
+
 
 # for working purposes, only pulling in New England
 
