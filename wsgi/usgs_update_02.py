@@ -68,7 +68,7 @@ for i in range(0,1):
 #Gage ht. ft. variableID 45807202
 
         if variablecode == '45807202':
-            db.gaugepoints.update({"_id":agaugenum},{"$set":"height":variablevalue}})
+            db.gaugepoints.update({"_id":agaugenum},{"$set":{"height":variablevalue}})
 
 
 #Discharge cfs variableID 45807197
