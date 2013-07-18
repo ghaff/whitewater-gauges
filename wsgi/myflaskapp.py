@@ -118,6 +118,9 @@ def update():
    
             count = count - 1
 
+    return "Gauges updated"     
+        
+
 
 @app.route("/")
 def test():
