@@ -14,6 +14,7 @@ import sys
 import io
 import urllib2
 import pymongo
+import os
 
 output = {}
 
