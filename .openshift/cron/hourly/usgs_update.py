@@ -24,7 +24,7 @@ output = {}
 #setup the connection to the gauges database
 conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
 db = conn.gauges
-f.open('logfile','w')
+f = open('logfile','w')
 f.write(strftime("%Y-%m-%d %H:%M:%S"))
 f.close()
 
