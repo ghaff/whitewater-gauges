@@ -60,10 +60,10 @@ def update():
     #setup the connection to the gauges database
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.gauges
-#    f = open('lastupdate','w')
+    f = open('lastupdate','w')
     # ticks since the epoch 
-#    f.write(time())
-#    f.close()
+    f.write(str(int(time())))
+    f.close()
     
     # for working purposes, only pulling in New England
 
