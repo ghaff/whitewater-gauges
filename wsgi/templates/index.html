@@ -57,7 +57,7 @@
 			var markerArray = new Array(data.length)
 			for (var i = 0; i < data.length; i++){
 				park = data[i];
-                                markertext = "<b>"+park.sitename + "</b><br \>" + park.height + " feet<br \>" + park.flow + " cfs<br \>at timestamp " + park.timestamp + "<br />http://waterdata.usgs.gov/ma/nwis/uv?site_no=" + park._id 
+                                markertext = "<b>"+park.sitename + "</b><br \>" + park.height + " feet<br \>" + park.flow + " cfs<br \>at timestamp " + park.timestamp + "<br /><a href=\"http://waterdata.usgs.gov/ma/nwis/uv?site_no=" + park._id + "\">USGS gauge page</a>" 
 				markerArray[i] = L.marker([park.pos[1], park.pos[0]],{title: park.sitename, riseOnHover: true}).bindPopup(markertext);			
 			}
 			
