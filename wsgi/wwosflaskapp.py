@@ -70,17 +70,21 @@ def update():
     # Note that some filters seem to produce JSON rsponses that are too large to process
     
     for i in statelist:
+        
+        try:
     
-        requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=" + i +"&parameterCd=00060,00065&siteType=ST"
+            requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=" + i +"&parameterCd=00060,00065&siteType=ST"
     
     
             #code
-        req = urllib2.Request(requesturl)
-        opener = urllib2.build_opener()
-        f = opener.open(req)
-    
+            req = urllib2.Request(requesturl)
+            opener = urllib2.build_opener()
+            f = opener.open(req)
+           
+            entry = json.loads(f.read())
         
-        entry = json.loads(f.read())
+        except:
+            continue
         
     
         count = int (len(entry['value']['timeSeries']) - 1)
@@ -130,6 +134,7 @@ def update():
             db.gaugepoints.update({"_id":agaugenum},{"$set":{"timestamp":creationtime}})
     
             count = count - 1
+
             
     return "Update completed. "
             
