@@ -66,14 +66,14 @@ def update():
 # USGS requires a major filter. I'm using huc (hydrological area)
 # Range from 01 to 21
 
-    for i in range(1,2):
+    for i in range(1,22):
     
         if i < 10:
             hucstring = "0" + str(i)
         else:
             hucstring = str(i)
             
-        returnstring = "All OK"
+        returnstring = ""
         
 
 
@@ -88,7 +88,9 @@ def update():
         except:
             continue
         
-        entry = json.loads(f.read()) 
+        entry = json.loads(f.read())
+        
+        returnstring += hucstring + "OK "
     
 
         count = int (len(entry['value']['timeSeries']) - 1)
