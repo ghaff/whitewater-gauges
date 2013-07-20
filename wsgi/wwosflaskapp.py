@@ -60,22 +60,12 @@ def update():
     #setup the connection to the gauges database
     conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
     db = conn.gauges
-
-    
-
-
-    for i in range(0,1):
-
-        req = urllib2.Request("http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc=01&parameterCd=00060,00065&siteType=ST")
-        opener = urllib2.build_opener()
-        f = opener.open(req)
-        entry = json.loads(f.read())
         
         
 # USGS requires a major filter. I'm using huc (hydrological area)
 # Range from 01 to 21
 
-    for i in range(1,2):
+    for i in range(1,22):
     
         if i < 10:
             hucstring = "0" + str(i)
