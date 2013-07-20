@@ -72,7 +72,9 @@ for i in range(1,2):
 
 # save the variable value
 
-        variablevalue = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['value'])
+        if entry['value']['timeSeries'][count]['values'][0]['value'][0]['value']:
+
+            variablevalue = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['value'])
 
 # save the time stamp
 
