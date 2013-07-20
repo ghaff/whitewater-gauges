@@ -71,10 +71,10 @@ for i in range(1,2):
         variablecode = str(entry['value']['timeSeries'][count]['variable']['variableCode'][0]['variableID'])
 
 # save the variable value
-
-        if entry['value']['timeSeries'][count]['values'][0]['value'][0]['value']:
-
+        try:
             variablevalue = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['value'])
+        except:
+            variablevalue = 0
 
 # save the time stamp
 
