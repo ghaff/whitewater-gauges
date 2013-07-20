@@ -82,7 +82,7 @@ def update():
 
         try:
             #code
-           req = urllib2.Request(requesturl)
+            req = urllib2.Request(requesturl)
             opener = urllib2.build_opener()
             f = opener.open(req)
         except:
