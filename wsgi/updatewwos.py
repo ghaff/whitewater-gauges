@@ -40,13 +40,12 @@ for i in range(1,2):
 
     print "Loading request"
 
-    try:
+
         #code
-        req = urllib2.Request(requesturl)
-        opener = urllib2.build_opener()
-        f = opener.open(req)
-    except:
-        continue
+    req = urllib2.Request(requesturl)
+    opener = urllib2.build_opener()
+    f = opener.open(req)
+
     
     entry = json.loads(f.read())
     
