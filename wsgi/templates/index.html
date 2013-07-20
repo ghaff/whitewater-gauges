@@ -44,7 +44,7 @@
 		
 
 		function getPins(e){
-                    if (map.getZoom>6) {
+                    if (map.getZoom()>6) {
                     
 			bounds = map.getBounds();
 			url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
