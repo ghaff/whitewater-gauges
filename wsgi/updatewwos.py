@@ -13,32 +13,21 @@ import urllib2
 from time import time
 from time import sleep
 
+statelist = ["al","ak","az","ar","ca","co","ct","de","dc","fl","ga","hi","id","il","in","ia","ks","ky","la","me","md","ma","mi","mn","ms","mo","mt","ne","nv","nh","nj","nm","ny","nc","nd","oh","ok","or","pa","ri","sc","sd","tn","tx","ut","vt","va","wa","wv","wi","wy","pr"]
+
 #setup the connection to the gauges database
 conn = pymongo.Connection(os.environ['OPENSHIFT_MONGODB_DB_URL'])
 db = conn.gauges
     
     
-# USGS requires a major filter. I'm using huc (hydrological area)
-# Range from 01 to 21
-
-#This does not seem to complete reliably
-
-for i in range(1,2):
-
-    if i < 10:
-        hucstring = "0" + str(i)
-    else:
-        hucstring = str(i)
-        
-    
+# USGS requires a major filter. I'm using state name
+# Note that some filters seem to produce JSON rsponses that are too large to process
 
 
-    
-#    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
+    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=" + i +"&parameterCd=00060,00065&siteType=ST"
 
-    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=ny&parameterCd=00060,00065&siteType=ST"
-
-    print "Loading request"
+    print "Loading request for "
+    print i
 
 
         #code
@@ -49,7 +38,8 @@ for i in range(1,2):
     
     entry = json.loads(f.read())
     
-    print "Loaded request "
+    print "Loaded request for "
+    print i
 
 
     count = int (len(entry['value']['timeSeries']) - 1)
