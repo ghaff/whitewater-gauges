@@ -73,7 +73,7 @@ def update():
         else:
             hucstring = str(i)
             
-        returnstring = ""
+        returnstring = "Update completed"
         
 
 
@@ -90,7 +90,7 @@ def update():
         
         entry = json.loads(f.read())
         
-        returnstring += hucstring + "OK "
+#        returnstring += hucstring + "OK "
     
 
         count = int (len(entry['value']['timeSeries']) - 1)
