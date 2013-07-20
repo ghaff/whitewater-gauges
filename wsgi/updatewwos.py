@@ -74,11 +74,14 @@ for i in range(1,2):
         try:
             variablevalue = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['value'])
         except:
-            variablevalue = 0
+            variablevalue = ""
 
 # save the time stamp
 
-        creationtime  = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['dateTime'])
+        try:
+            creationtime  = str(entry['value']['timeSeries'][count]['values'][0]['value'][0]['dateTime'])
+        except:
+            creationtime = ""
 
 #Gage ht. ft. variableID 45807202
 
