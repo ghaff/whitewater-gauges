@@ -23,6 +23,7 @@ db = conn.gauges
 # USGS requires a major filter. I'm using state name
 # Note that some filters seem to produce JSON rsponses that are too large to process
 
+for i in statelist:
 
     requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=" + i +"&parameterCd=00060,00065&siteType=ST"
 
