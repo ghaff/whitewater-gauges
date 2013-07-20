@@ -95,7 +95,7 @@ for i in range(1,3):
         count = count - 1
 
         
-        sleep(30)
+#        sleep(30)
         
 print "All completed!"
    
