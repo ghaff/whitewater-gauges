@@ -44,18 +44,20 @@
 		
 
 		function getPins(e){
-                    if (map.getZoom()>6) {
+                    
                     
 			bounds = map.getBounds();
 			url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
 			$.get(url, pinTheMap, "json")
-                    }
+                    
 		}
 
 		function pinTheMap(data){
 			//clear the current pins
 			map.removeLayer(markerLayerGroup);
-			
+                        // For performance, remove pins at certain scale
+			if (map.getZoom() > 7) {
+
 			//add the new pins
 			var markerArray = new Array(data.length)
 			for (var i = 0; i < data.length; i++){
@@ -64,7 +66,8 @@
 				markerArray[i] = L.marker([park.pos[1], park.pos[0]],{title: park.sitename, riseOnHover: true}).bindPopup(markertext);			
 			}
 			
-			markerLayerGroup = L.layerGroup(markerArray).addTo(map);	
+			markerLayerGroup = L.layerGroup(markerArray).addTo(map);
+                        }
 
 
 		}
