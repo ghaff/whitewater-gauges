@@ -66,7 +66,7 @@ def update():
 # USGS requires a major filter. I'm using huc (hydrological area)
 # Range from 01 to 21
 
-    for i in range(1,22):
+    for i in range(1,6):
     
         if i < 10:
             hucstring = "0" + str(i)
