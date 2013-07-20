@@ -23,7 +23,7 @@ db = conn.gauges
 
 #This does not seem to complete reliably
 
-for i in range(1,22):
+for i in range(1,3):
 
     if i < 10:
         hucstring = "0" + str(i)
@@ -35,6 +35,8 @@ for i in range(1,22):
 
     
     requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
+
+    print "Loading HUC ",hucstring
 
     try:
         #code
