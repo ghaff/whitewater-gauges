@@ -66,7 +66,9 @@ def update():
 # USGS requires a major filter. I'm using huc (hydrological area)
 # Range from 01 to 21
 
-    for i in range(1,6):
+#This does not seem to complete reliably
+
+    for i in range(1,22):
     
         if i < 10:
             hucstring = "0" + str(i)
@@ -135,12 +137,9 @@ def update():
             db.gaugepoints.update({"_id":agaugenum},{"$set":{"timestamp":creationtime}})
    
             count = count - 1
-#                returnstring = returnstring + hucstring + "OK\r"
-#            except:
-#                pass
-# throttle the calls
+
             
-#            sleep(30)
+            sleep(30)
 
     return returnstring     
         
