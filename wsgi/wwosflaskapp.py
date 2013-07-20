@@ -134,6 +134,8 @@ def update():
             db.gaugepoints.update({"_id":agaugenum},{"$set":{"timestamp":creationtime}})
     
             count = count - 1
+            
+        sleep(30)
 
             
     return "Update completed. "
