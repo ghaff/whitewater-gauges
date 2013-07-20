@@ -23,7 +23,7 @@ db = conn.gauges
 
 #This does not seem to complete reliably
 
-for i in range(1,3):
+for i in range(1,2):
 
     if i < 10:
         hucstring = "0" + str(i)
@@ -34,9 +34,11 @@ for i in range(1,3):
 
 
     
-    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
+#    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
 
-    print "Loading HUC ",hucstring
+    requestURL = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=ny&parameterCd=00060,00065&siteType=ST"
+
+    print "Loading request"
 
     try:
         #code
@@ -48,7 +50,7 @@ for i in range(1,3):
     
     entry = json.loads(f.read())
     
-    print "Loaded HUC ",hucstring
+    print "Loaded request "
 
 
     count = int (len(entry['value']['timeSeries']) - 1)
