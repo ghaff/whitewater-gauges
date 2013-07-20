@@ -36,7 +36,7 @@ for i in range(1,2):
     
 #    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
 
-    requestURL = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=ny&parameterCd=00060,00065&siteType=ST"
+    requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&stateCd=ny&parameterCd=00060,00065&siteType=ST"
 
     print "Loading request"
 
