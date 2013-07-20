@@ -73,7 +73,7 @@ def update():
         else:
             hucstring = str(i)
             
-        returnstring = ""
+        returnstring = "All OK"
         
         try:
 
@@ -128,7 +128,7 @@ def update():
                 db.gaugepoints.update({"_id":agaugenum},{"$set":{"timestamp":creationtime}})
    
                 count = count - 1
-                returnstring = returnstring + hucstring + "OK\r"
+#                returnstring = returnstring + hucstring + "OK\r"
             except:
                 pass
 # throttle the calls
