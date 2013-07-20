@@ -30,7 +30,6 @@ for i in range(1,22):
     else:
         hucstring = str(i)
         
-    returnstring = "Update completed"
     
 
 
@@ -47,7 +46,7 @@ for i in range(1,22):
     
     entry = json.loads(f.read())
     
-#        returnstring += hucstring + "OK "
+    print "Loaded HUC ",hucstring
 
 
     count = int (len(entry['value']['timeSeries']) - 1)
@@ -95,6 +94,8 @@ for i in range(1,22):
 
         
         sleep(30)
+        
+print "All completed!"
    
     
 
