@@ -12,6 +12,7 @@ from bson import objectid
 import re
 import urllib2
 from time import time
+from time import sleep
 
 # Note order of coordinates is long/lat
 
@@ -122,6 +123,10 @@ def update():
             db.gaugepoints.update({"_id":agaugenum},{"$set":{"timestamp":creationtime}})
    
             count = count - 1
+            
+# throttle the calls
+            
+            sleep(30)
 
     return "Gauges updated"     
         
