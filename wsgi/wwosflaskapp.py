@@ -80,9 +80,14 @@ def update():
         
         requesturl = "http://waterservices.usgs.gov/nwis/iv/?format=json,1.1&huc="+ hucstring + "&parameterCd=00060,00065&siteType=ST"
 
-        req = urllib2.Request(requesturl)
-        opener = urllib2.build_opener()
-        f = opener.open(req)
+        try:
+            #code
+           req = urllib2.Request(requesturl)
+            opener = urllib2.build_opener()
+            f = opener.open(req)
+        except:
+            continue
+        
         entry = json.loads(f.read()) 
     
 
