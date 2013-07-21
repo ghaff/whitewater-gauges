@@ -216,7 +216,7 @@ def updatestate():
 
         count = count - 1
         
-    updatemsg = "Update completed for state " + i
+    updatemsg = "Update completed for state " + i + "\n"
 
             
     return updatemsg
