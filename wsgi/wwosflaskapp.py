@@ -217,6 +217,8 @@ def updatestate():
         count = count - 1
         
     updatemsg = "Update completed for state " + i + "\n"
+    
+    conn.close()
 
             
     return updatemsg
