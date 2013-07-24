@@ -34,14 +34,22 @@
 	<div id="map"></div>
 	<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> 
 	<script>
-		var map = L.map('map').setView([42.35, -71.06], 10);
+                if (navigator.geolocation)
+                {
+                geolocation = navigator.geolocation.getCurrentPosition(showPosition);
+                }
+//		var map = L.map('map').setView([42.35, -71.06], 10);
+		var map = L.map('map').setView([geolocation[1], geolocation[0]], 10);
+
 		var markerLayerGroup = L.layerGroup().addTo(map);
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 18,
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> Written by <a href="http://www.bitmasons.com">Gordon Haff</a>. Running on OpenShift by Red Hat. <a href="http://bitmason.blogspot.com/p/blog-page_18.html"> About.</a>'
 		}).addTo(map);
 
-		
+		function showPosition(position) {
+                    return [position.coords.longitude, position.coords.latitude]
+                }
 
 		function getPins(e){
                     
