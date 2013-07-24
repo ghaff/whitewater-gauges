@@ -38,10 +38,10 @@
                 {
                 geolocation = navigator.geolocation.getCurrentPosition(showPosition);
                 }
-		var map = L.map('map').setView([42.35, -71.06], 10);
-//                geolocation[1] = -71.06
-//                geolocation[0] = 42.35
-//		var map = L.map('map').setView([geolocation[1], geolocation[0]], 10);
+//		var map = L.map('map').setView([42.35, -71.06], 10);
+//                geolocation[1] = -71.06;
+//                geolocation[0] = 42.35;
+		var map = L.map('map').setView([geolocation[1], geolocation[0]], 10);
 
 		var markerLayerGroup = L.layerGroup().addTo(map);
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
