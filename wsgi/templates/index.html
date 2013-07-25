@@ -84,15 +84,12 @@
                 }
                 }
                 
-                function lostme(e) {
- //                   map.setView([43, -70], 10);
-                }
 
 		map.on('dragend', getPins);	
 		map.on('zoomend', getPins);
                 map.on('move', getPins);
                 map.on('locationfound', foundme);
-                map.on('locationerror', lostme);
+
 
 		map.whenReady(getPins)
 		
