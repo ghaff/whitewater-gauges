@@ -76,11 +76,11 @@
 		}
                 
                 function foundme(e) {
-                    map.setView([43, -100.06], 10); 
+                    map.setView(e.latlng, 10); 
                 }
                 
                 function lostme(e) {
-                    map.setView([43, -110.06], 10);
+                    map.setView([43, -70], 10);
                 }
 
 		map.on('dragend', getPins);	
