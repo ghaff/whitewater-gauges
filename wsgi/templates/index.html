@@ -78,8 +78,8 @@
                 function foundme(e) {
                     
                 // Don't want to move if outside continental US
-                alert(e.latlng.long)
-                if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.long<-66&&e.latlng.long>-124) {           
+                alert(e.latlng.lng)
+                if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.lng<-66&&e.latlng.lng>-124) {           
                 
                     map.panTo(e.latlng);
                 }
