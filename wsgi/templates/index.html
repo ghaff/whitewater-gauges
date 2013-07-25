@@ -76,11 +76,16 @@
 		}
                 
                 function foundme(e) {
-                    map.panTo(e.latlng); 
+                    
+                // Don't want to move if outside continental US
+                if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.long<-66&&e.latlng.long>-124) {           
+                
+                    map.panTo(e.latlng);
+                }
                 }
                 
                 function lostme(e) {
-                    map.setView([43, -70], 10);
+ //                   map.setView([43, -70], 10);
                 }
 
 		map.on('dragend', getPins);	
