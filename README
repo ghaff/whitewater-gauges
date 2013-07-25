@@ -1,4 +1,10 @@
-Feel free to change or remove this file, it is informational only.
+WWOS [whitewater-OpenShift]
+
+Displays a map with pins representing USGS stream gauges. Includes programs for creating initial static data load and 
+updating the database as through a cron job. 
+
+Uses Python 2.6, Flask micro-framework, MongoDB, Leaflet, and OpenStreetMaps tiles. It was written to run on OpenShift.
+
 
 Repo layout
 ===========
