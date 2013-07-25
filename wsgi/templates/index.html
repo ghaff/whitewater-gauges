@@ -36,6 +36,7 @@
 	<script>
 		var map = L.map('map');
                 map.setView([42.35, -71.06], 10);
+                map.locate();
 
 
 		var markerLayerGroup = L.layerGroup().addTo(map);
@@ -73,9 +74,19 @@
 
 
 		}
+                
+                function foundme(e) {
+                    
+                }
+                
+                function lostme(e) {
+                    //code
+                }
 
 		map.on('dragend', getPins);	
 		map.on('zoomend', getPins);
+                map.on('locationfound', foundme);
+                map.on('locationerror', lostme);
 
 		map.whenReady(getPins)
 		
