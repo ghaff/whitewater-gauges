@@ -35,7 +35,8 @@
 	<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> 
 	<script>
 		var map = L.map('map');
-                map.setView([42.35, -71.06], 10);
+//                map.setView([42.35, -71.06], 10);
+
                 map.locate();
 
 
@@ -80,7 +81,8 @@
                 // Don't want to move if outside continental US
                 if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.lng<-66&&e.latlng.lng>-124) {           
                 
-                    map.panTo(e.latlng);
+//                    map.panTo(e.latlng);
+                    map.setView(e.latlng,10);
                 }
                 }
                 
