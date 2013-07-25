@@ -1,3 +1,10 @@
+# WWOSFLASKAPP.PY
+# Main application code for WWOS
+#
+# Copyright Gordon Haff 2013
+# Released under MIT License http://opensource.org/licenses/MIT
+
+
 import os
 import io
 import sys
@@ -55,7 +62,8 @@ def within():
     #turn the results into valid JSON
     return str(json.dumps(list(result),default=json_util.default))
 
-# for manual updates
+# for manual updates of all states 
+# This may not complete reliably if one or more requests to the Web service fail
 @app.route("/ws/gauges/update")
 def update():
 
@@ -67,7 +75,7 @@ def update():
         
         
     # USGS requires a major filter. I'm using state name
-    # Note that some filters seem to produce JSON rsponses that are too large to process
+    # Note that some filters seem to produce JSON responses that are too large to process
     
     for i in statelist:
         
@@ -141,6 +149,8 @@ def update():
     return "Update completed. "
 
 # for manual updates
+# Updates one state at a time
+# More relaible for remote script jobs
 @app.route("/ws/gauges/update/state")
 def updatestate():
 
