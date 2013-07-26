@@ -79,12 +79,12 @@
                     if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.lng<-66&&e.latlng.lng>-124) {           
                 
                     map.panTo(e.latlng);
+                    bounds = map.getBounds();
+		    url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
+		    $.get(url, pinTheMap, "json")
 
                     }
-                    else
-                    {
-                        map.setView([42,-71],10);
-                    }
+
                 }
 
 // Leaving this here as a placeholder but it doesn't work reliably, depending upon browser,
@@ -98,7 +98,7 @@
 
 	map.on('dragend', getPins);	
     	map.on('zoomend', getPins);
-        map.on('moveend', getPins);
+ //       map.on('moveend', getPins);
         map.on('locationfound', foundme);
 //      map.on('locationerror',lostme);
 
