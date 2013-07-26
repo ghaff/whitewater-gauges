@@ -51,7 +51,7 @@
                     
 		    bounds = map.getBounds();
 		    url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
-		    $.get(url, pinTheMap, "json")
+		    $.get(url, pinTheMap, "json");
                     
 		}
 
@@ -83,7 +83,7 @@
                     map.panTo(e.latlng);
                     bounds = map.getBounds();
 		    url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
-		    $.get(url, pinTheMap, "json")
+		    $.get(url, pinTheMap, "json");
 
                     }
 
