@@ -80,10 +80,8 @@
                     // Don't want to move if outside continental US
                     if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.lng<-66&&e.latlng.lng>-124) {           
                 
-                    map.panTo(e.latlng);
-                    bounds = map.getBounds();
-		    url = "/ws/gauges/within?lat1=" + bounds.getNorthEast().lat + "&lon1=" + bounds.getNorthEast().lng + "&lat2=" + bounds.getSouthWest().lat + "&lon2=" + bounds.getSouthWest().lng;
-		    $.get(url, pinTheMap, "json");
+                    map.panTo(e.latlng,{'noMoveStart': true});
+
 
                     }
 
@@ -100,7 +98,7 @@
 
 	map.on('dragend', getPins);	
     	map.on('zoomend', getPins);
-//        map.on('moveend', getPins);
+        map.on('movestart', getPins);
         map.on('locationfound', foundme);
 //      map.on('locationerror',lostme);
 
