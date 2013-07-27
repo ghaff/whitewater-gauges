@@ -43,7 +43,7 @@
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> Written by <a href="http://www.bitmasons.com">Gordon Haff</a>. Running on OpenShift by Red Hat. <a href="http://bitmason.blogspot.com/p/blog-page_18.html"> About.</a>'
 		}).addTo(map);
                 
-                map.locate();
+//                map.locate();
 
 
 		function getPins(e){
@@ -98,8 +98,8 @@
 
 	map.on('dragend', getPins);	
     	map.on('zoomend', getPins);
-        map.on('move', getPins);
-        map.on('locationfound', foundme);
+//        map.on('move', getPins);
+//        map.on('locationfound', foundme);
 //      map.on('locationerror',lostme);
 
 
