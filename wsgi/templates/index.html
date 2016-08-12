@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <title>USGS River Gauges</title> 
-  	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+  	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
 	<!--[if lte IE 8]>
-    	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+    	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.ie.css" />
 	<![endif]-->
 	<script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
@@ -28,22 +28,25 @@
 	
 </head>
 <body>
-	<h1 id="title">USGS River Gauges</h1>
+
+	<h1 id="title"></h1>
 	<div id="map"></div>
-	<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> 
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script> 
 	<script>
-		var map = L.map('map');
+		var map = L.map('map', { zoomControl: false });
                 map.setView([42.35, -71.06], 10);
+                
+        new L.Control.Zoom({ position: 'bottomright' }).addTo(map);
 
 
 
 		var markerLayerGroup = L.layerGroup().addTo(map);
 		L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 			maxZoom: 18,
-			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> Written by <a href="http://www.bitmasons.com">Gordon Haff</a>. Running on OpenShift by Red Hat. <a href="http://bitmason.blogspot.com/p/blog-page_18.html"> About.</a>'
+			attribution: 'USGS River Gauges Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> Written by <a href="http://www.bitmasons.com">Gordon Haff</a>. Running on OpenShift by Red Hat. <a href="http://bitmason.blogspot.com/p/blog-page_18.html"> About.</a>'
 		}).addTo(map);
                 
-//                map.locate();
+               map.locate();
 
 
 		function getPins(e){
@@ -81,6 +84,7 @@
                     if (e.latlng.lat>24&&e.latlng.lat<50&&e.latlng.lng<-66&&e.latlng.lng>-124) {           
                 
                     map.panTo(e.latlng);
+                    getPins(e);
 
 
                     }
@@ -91,15 +95,16 @@
 // if the user denies geolocation services
 
 //                function lostme(e) {
-                    
+//                    
 //                    map.setView([42,-71],10);
+//                    alert("lost");
 //                }
                 
 
 	map.on('dragend', getPins);	
     	map.on('zoomend', getPins);
 //        map.on('move', getPins);
-//        map.on('locationfound', foundme);
+        map.on('locationfound', foundme);
 //      map.on('locationerror',lostme);
 
 
